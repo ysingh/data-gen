@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdbool.h>
+#include <math.h>
 
 typedef enum supportedTypes { t_char, t_int, t_double } supportedTypes;
 typedef enum orderings { o_increasing, o_decreasing, o_random } orderings;
